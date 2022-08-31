@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <header>
+    <header class="">
       <a href="#">Cinema Paradiso</a>
-      <ul>
+      <ul class="">
         <li>Search</li>
         <li>Movies</li>
         <li>Series</li>

@@ -1,13 +1,15 @@
+import { TextField, Button } from "@mui/material"
+
 function Search() {
   return (
-    <main>
-      <div>
-        <form action="">
-          <input type="text" name="" id="" placeholder="Enter a title, a director..." />
-          <button type="submit">Search</button>
+    <main class="">
+      <div class="">
+        <form class="" action="">
+          <TextField variant="outlined" label="Type a title, a director..." />
+          <Button type="submit" variant="contained">Search</Button>
         </form>
-        <div>Or...</div>
-        <button>Surprise me!</button>
+        <div class="">Or...</div>
+        <button class="">Surprise me!</button>
       </div>
     </main>
   )
